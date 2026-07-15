@@ -116,8 +116,41 @@ These results contribute to the broader literature on digital currency adoption,
 ---
 
 ## Repository Structure
-data/
 survey_responses.xlsx
 
-notebooks/
 CBDC_Adoption_Analysis.ipynb
+
+figures/
+├── gender_ttest_distribution.png
+├── trust_correlation_plot.png
+├── regression_coefficients.png
+├── education_chisquare_plot.png
+└── descriptive_statistics.png
+
+README.md
+requirements.txt
+
+
+---
+
+## Future Work
+
+Potential extensions include:
+
+- Technology Acceptance Model (TAM)
+- Unified Theory of Acceptance and Use of Technology (UTAUT)
+- Logistic regression models
+- Structural Equation Modelling (SEM)
+- Cross-country comparative analysis
+
+---
+
+## Citation
+
+If you use this repository for academic purposes, please cite appropriately.
+
+---
+
+## License
+
+This repository is intended for academic and educational use.
