@@ -116,3 +116,8 @@ These results contribute to the broader literature on digital currency adoption,
 ---
 
 ## Repository Structure
+data/
+survey_responses.xlsx
+
+notebooks/
+CBDC_Adoption_Analysis.ipynb
