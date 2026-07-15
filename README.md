@@ -116,19 +116,22 @@ These results contribute to the broader literature on digital currency adoption,
 ---
 
 ## Repository Structure
-survey_responses.xlsx
-
-CBDC_Adoption_Analysis.ipynb
-
-figures/
-├── gender_ttest_distribution.png
-├── trust_correlation_plot.png
-├── regression_coefficients.png
-├── education_chisquare_plot.png
-└── descriptive_statistics.png
-
-README.md
-requirements.txt
+.
+├── README.md
+├── requirements.txt
+│
+├── notebooks/
+│   └── CBDC_Adoption_Analysis.ipynb
+│
+├── data/
+│   └── survey_responses.xlsx
+│
+├── figures/
+│   ├── gender_ttest_distribution.png
+│   ├── trust_correlation_plot.png
+│   ├── regression_coefficients.png
+│   ├── education_chisquare_plot.png
+│   └── descriptive_statistics.png
 
 
 ---
