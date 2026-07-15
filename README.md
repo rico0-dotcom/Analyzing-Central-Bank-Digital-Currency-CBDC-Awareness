@@ -116,6 +116,8 @@ These results contribute to the broader literature on digital currency adoption,
 ---
 
 ## Repository Structure
+
+```text
 .
 ├── README.md
 ├── requirements.txt
@@ -132,9 +134,7 @@ These results contribute to the broader literature on digital currency adoption,
 │   ├── regression_coefficients.png
 │   ├── education_chisquare_plot.png
 │   └── descriptive_statistics.png
-
-
----
+```
 
 ## Future Work
 
