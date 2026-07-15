@@ -1,38 +1,118 @@
-CBDC Awareness and Adoption Research
-This repository presents a comprehensive research project on public perception, awareness, and willingness to adopt Central Bank Digital Currency (CBDC). The study uses statistical and machine learning tools in Python to analyze survey data collected as part of a college-level research methodology course
-CBDC Awareness and Adoption Research
-This repository presents a comprehensive research project on public perception, awareness, and willingness to adopt Central Bank Digital Currency (CBDC). The study uses statistical and machine learning tools in Python to analyze survey data collected as part of a college-level research methodology course
-Methodology
-Data Collection: Survey responses (Likert-scale, multiple choice)
+# CBDC Awareness and Adoption Research
 
-Data Cleaning: Handled missing values, label-encoded categorical data
+## Overview
 
-Statistical Analysis:
+This repository contains an empirical study examining public awareness, trust, and willingness to adopt Central Bank Digital Currency (CBDC).
 
-T-test: Gender vs CBDC willingness
+The project investigates how behavioural, institutional, and informational factors influence adoption decisions for emerging financial technologies under conditions of uncertainty.
 
-Pearson Correlation: Trust in govt. vs willingness
+The study was conducted as part of a graduate-level research methodology project and implements a complete quantitative research workflow using Python.
 
-Regression: Awareness & education → adoption likelihood
+---
 
-Chi-square Test: Education vs adoption categories
+## Research Questions
 
-Tools Used: pandas, scipy, statsmodels, matplotlib, seaborn
-Key Findings
-No significant gender difference in CBDC adoption (p > 0.05)
+The project addresses four hypotheses:
 
-Positive correlation (r = 0.35) between trust in CBDC security and willingness to adopt
+### H1
+Is there a significant difference in CBDC adoption willingness between males and females?
 
-Awareness significantly predicts lower willingness to use CBDC (possibly due to skepticism)
+### H2
+Does trust in the security of CBDC transactions influence willingness to adopt CBDC?
 
-Education level showed no significant categorical effect on adoption likelihood
-Limitations
-Sample size: n = 79, may not fully generalize
+### H3
+Do awareness and education levels predict CBDC adoption willingness?
 
-Self-reported responses may involve bias
+### H4
+Is there an association between education level and CBDC adoption categories?
 
-Assumes Likert scales are interval-level for parametric tests
+---
 
-Trust and awareness variables may be context-sensitive
-📄 License
-This project is for academic purposes. You are free to use or cite it with proper credit.
+## Dataset
+
+- Survey responses from **79 participants**
+- Cross-sectional survey design
+- Likert-scale and categorical variables
+- Variables include:
+
+  - Gender
+  - Age Group
+  - Education Level
+  - CBDC Awareness
+  - Perceived Transaction Security
+  - CBDC Adoption Willingness
+
+---
+
+## Methodology
+
+The following statistical methods were employed:
+
+| Method | Purpose |
+|--------|---------|
+| Independent Sample T-Test | Gender differences in adoption willingness |
+| Pearson Correlation | Relationship between perceived security and adoption |
+| Ordinary Least Squares Regression | Effect of awareness and education on adoption |
+| Chi-Square Test | Association between education and adoption categories |
+
+---
+
+## Technology Stack
+
+- Python
+- pandas
+- scipy
+- statsmodels
+- matplotlib
+- seaborn
+
+---
+
+## Key Findings
+
+### H1: Gender Differences
+No statistically significant difference was found between males and females in CBDC adoption willingness.
+
+**Result:** Not Supported
+
+---
+
+### H2: Trust and Adoption
+Perceived security of CBDC transactions was positively associated with willingness to adopt CBDC.
+
+- Correlation coefficient: **r = 0.35**
+- p-value: **0.0014**
+
+**Result:** Supported
+
+---
+
+### H3: Awareness and Education
+Regression analysis showed that awareness and education jointly predict CBDC adoption willingness.
+
+Interestingly, awareness demonstrated a statistically significant negative effect on adoption willingness, suggesting that greater familiarity with CBDC may increase skepticism or perceived risk.
+
+Education exhibited a weaker and statistically insignificant effect.
+
+**Result:** Partially Supported
+
+---
+
+### H4: Education Categories
+No statistically significant association was found between education categories and CBDC adoption willingness.
+
+**Result:** Not Supported
+
+---
+
+## Discussion
+
+The findings suggest that trust and perceived security play an important role in shaping adoption decisions for emerging financial technologies.
+
+The negative relationship between awareness and willingness highlights the importance of uncertainty, legitimacy, and perceived risk in innovation adoption processes.
+
+These results contribute to the broader literature on digital currency adoption, financial innovation, and technology acceptance.
+
+---
+
+## Repository Structure
